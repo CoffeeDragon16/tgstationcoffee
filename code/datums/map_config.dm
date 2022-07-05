@@ -35,6 +35,8 @@
 	var/job_changes = list()
 	/// List of additional areas that count as a part of the library
 	var/library_areas = list()
+	/// Does this map use the gas giant parallax?
+	var/uses_gas_giant_parallax = FALSE
 
 /**
  * Proc that simply loads the default map config, which should always be functional.
@@ -152,7 +154,14 @@
 		log_world("map_config traits is not a list!")
 		return
 
-	var/temp = json["space_ruin_levels"]
+	var/temp = json["uses_gas_giant_parallax"]
+	if (isnum(temp))
+		uses_gas_giant_parallax = temp
+	else if (!isnull(temp))
+		log_world("map_config uses_gas_giant_parallax is not a number!")
+		return
+
+	temp = json["space_ruin_levels"]
 	if (isnum(temp))
 		space_ruin_levels = temp
 	else if (!isnull(temp))
