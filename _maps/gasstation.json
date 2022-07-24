@@ -1,0 +1,27 @@
+{
+	"version": 1,
+	"map_name": "Gas Station",
+	"map_path": "map_files/GasStation",
+	"map_file": "GasStation.dmm",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"uses_gas_giant_parallax": 1,
+	"shuttles": {
+		"emergency": "emergency_delta",
+		"ferry": "ferry_fancy",
+		"cargo": "cargo_delta",
+		"whiteship": "whiteship_delta"
+	},
+	"traits": [
+		{
+			"Baseturf": "/turf/open/chasm/gas_giant",
+			"Gravity": true,
+			"Gas Giant Parallax": true
+		}
+	],
+	"job_changes": {
+		"Cook": {
+			"additional_cqc_areas": ["/area/station/service/cafeteria"]
+		}
+	}
+}

@@ -95,8 +95,9 @@
 /area/space)
 "bZ" = (
 /obj/machinery/lapvend,
+/obj/structure/cable,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "cf" = (
 /obj/structure/table,
 /obj/machinery/door/window/left/directional/west,
@@ -189,7 +190,7 @@
 "fo" = (
 /obj/machinery/destructive_scanner,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "fv" = (
 /obj/machinery/door/airlock/command/glass{
 	name = "Server Access"
@@ -265,7 +266,7 @@
 	},
 /obj/structure/sign/departments/science/alt/directional/north,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "gx" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -296,6 +297,9 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"gZ" = (
+/turf/open/floor/plating/elevatorshaft,
+/area/station/hallway/primary/starboard)
 "ha" = (
 /obj/machinery/door/airlock/science,
 /turf/open/floor/plating,
@@ -345,7 +349,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "ih" = (
 /obj/structure/industrial_lift/tram{
 	icon_state = "titanium"
@@ -374,7 +378,7 @@
 "iy" = (
 /obj/structure/chair/sofa/bench/left,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "iK" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
@@ -424,8 +428,10 @@
 /area/station/commons/lounge)
 "jJ" = (
 /obj/effect/turf_decal/stripes,
+/obj/machinery/power/rtg/debug,
+/obj/structure/cable,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "jT" = (
 /obj/structure/chair/stool/directional/west{
 	dir = 1
@@ -472,7 +478,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "kS" = (
 /obj/machinery/door/airlock{
 	name = "Bar"
@@ -542,8 +548,9 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "na" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/bodycontainer/morgue{
@@ -593,7 +600,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating/elevatorshaft,
 /area/space)
 "oZ" = (
 /obj/structure/lattice/catwalk,
@@ -612,7 +619,7 @@
 "pn" = (
 /obj/structure/table,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "po" = (
 /obj/structure/table/reinforced,
 /obj/item/integrated_circuit/loaded/hello_world,
@@ -650,6 +657,15 @@
 "pI" = (
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
+/area/space)
+"pJ" = (
+/obj/structure/industrial_lift/tram{
+	icon_state = "titanium"
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/elevatorshaft,
 /area/space)
 "pN" = (
 /obj/structure/table/reinforced,
@@ -729,6 +745,9 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/space)
+"rf" = (
+/turf/open/floor/iron,
+/area/station/hallway/primary/starboard)
 "ru" = (
 /obj/item/target/syndicate,
 /turf/open/floor/engine,
@@ -778,6 +797,12 @@
 /obj/structure/closet/secure_closet/security/science,
 /turf/open/floor/iron,
 /area/space)
+"tY" = (
+/obj/structure/industrial_lift/tram{
+	icon_state = "titanium"
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/space)
 "tZ" = (
 /obj/effect/spawner/random/vending/colavend,
 /turf/open/floor/iron,
@@ -805,6 +830,15 @@
 "vg" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
+/area/space)
+"vl" = (
+/obj/structure/industrial_lift/tram{
+	icon_state = "titanium"
+	},
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/floor/plating/elevatorshaft,
 /area/space)
 "vC" = (
 /obj/structure/window/reinforced/spawner{
@@ -870,6 +904,10 @@
 /obj/structure/dresser,
 /turf/open/floor/iron,
 /area/space)
+"wU" = (
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/station/hallway/primary/starboard)
 "xg" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced,
@@ -930,6 +968,15 @@
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
 /area/space)
+"zr" = (
+/obj/structure/industrial_lift/tram{
+	icon_state = "titanium"
+	},
+/obj/structure/railing{
+	dir = 5
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/space)
 "zC" = (
 /obj/structure/table/glass,
 /obj/machinery/reagentgrinder{
@@ -940,7 +987,7 @@
 "zD" = (
 /obj/machinery/light/blacklight/directional/east,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "zE" = (
 /turf/open/floor/iron/textured,
 /area/space)
@@ -972,7 +1019,7 @@
 "Am" = (
 /obj/effect/spawner/random/vending/snackvend,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "AE" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/machinery/door/airlock/maintenance,
@@ -983,7 +1030,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "AO" = (
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
@@ -1029,6 +1076,15 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
+/area/space)
+"BM" = (
+/obj/structure/industrial_lift/tram{
+	icon_state = "titanium"
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/elevatorshaft,
 /area/space)
 "BU" = (
 /obj/machinery/door/airlock/maintenance,
@@ -1096,7 +1152,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "CY" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -1122,7 +1178,7 @@
 "Ds" = (
 /obj/structure/sign/departments/science/directional/east,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "DA" = (
 /obj/machinery/vending/wardrobe/science_wardrobe,
 /turf/open/floor/iron/white,
@@ -1138,10 +1194,14 @@
 /obj/structure/cable,
 /turf/open/space/basic,
 /area/space)
+"DZ" = (
+/obj/effect/spawner/random/vending/colavend,
+/turf/open/floor/iron,
+/area/station/hallway/primary/starboard)
 "Ea" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "Eu" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing,
@@ -1193,7 +1253,7 @@
 "EY" = (
 /obj/machinery/holopad,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "Ff" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
@@ -1212,7 +1272,7 @@
 "Ft" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "Fw" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
@@ -1335,6 +1395,13 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"ID" = (
+/obj/structure/industrial_lift/tram{
+	icon_state = "titanium"
+	},
+/obj/structure/railing/corner,
+/turf/open/floor/plating/elevatorshaft,
+/area/space)
 "IG" = (
 /obj/machinery/mech_bay_recharge_port{
 	dir = 2
@@ -1433,6 +1500,11 @@
 "Le" = (
 /obj/structure/closet/firecloset,
 /turf/open/floor/iron,
+/area/station/hallway/primary/starboard)
+"Lh" = (
+/obj/structure/holosign/barrier/atmos/sturdy,
+/obj/structure/lattice,
+/turf/open/floor/plating/elevatorshaft,
 /area/space)
 "Ll" = (
 /obj/structure/table/reinforced,
@@ -1458,6 +1530,10 @@
 "LL" = (
 /turf/open/floor/plating,
 /area/station/service/theater)
+"LV" = (
+/obj/structure/chair/sofa/bench,
+/turf/open/floor/iron,
+/area/station/hallway/primary/starboard)
 "LZ" = (
 /obj/structure/railing,
 /turf/open/floor/plating,
@@ -1490,7 +1566,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "MZ" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -1536,24 +1612,33 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "Nw" = (
 /obj/machinery/airalarm/directional/east,
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "NN" = (
 /turf/open/floor/iron/dark,
 /area/space)
 "NO" = (
 /obj/structure/holosign/barrier/atmos/sturdy,
-/turf/open/space/basic,
+/turf/open/floor/plating/elevatorshaft,
 /area/space)
 "NT" = (
 /obj/machinery/mecha_part_fabricator,
 /turf/open/floor/iron,
+/area/space)
+"Oh" = (
+/obj/structure/industrial_lift/tram{
+	icon_state = "titanium"
+	},
+/obj/structure/railing{
+	dir = 6
+	},
+/turf/open/floor/plating/elevatorshaft,
 /area/space)
 "Ox" = (
 /obj/structure/table/reinforced,
@@ -1579,7 +1664,7 @@
 	},
 /obj/structure/sign/directions/science/directional/south,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "OV" = (
 /obj/machinery/computer/scan_consolenew{
 	dir = 1
@@ -1594,6 +1679,15 @@
 /obj/structure/table,
 /turf/open/floor/iron,
 /area/station/commons/lounge)
+"Pm" = (
+/obj/structure/industrial_lift/tram{
+	icon_state = "titanium"
+	},
+/obj/structure/railing{
+	dir = 9
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/space)
 "Pn" = (
 /obj/machinery/status_display/evac/directional/east,
 /turf/closed/wall,
@@ -1605,6 +1699,11 @@
 /obj/structure/railing/corner,
 /turf/open/floor/plating,
 /area/space)
+"PN" = (
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/station/hallway/primary/starboard)
 "PS" = (
 /turf/open/floor/iron/recharge_floor,
 /area/space)
@@ -1672,6 +1771,15 @@
 /obj/structure/table,
 /turf/open/floor/wood,
 /area/station/service/theater)
+"SQ" = (
+/obj/structure/industrial_lift/tram{
+	icon_state = "titanium"
+	},
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/space)
 "SV" = (
 /obj/machinery/shower{
 	dir = 8;
@@ -1703,7 +1811,7 @@
 "TO" = (
 /obj/structure/sign/directions/supply/directional/north,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "TP" = (
 /obj/structure/industrial_lift/tram{
 	icon_state = "titanium"
@@ -1732,7 +1840,7 @@
 "TZ" = (
 /obj/structure/chair/sofa/bench/right,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "Uj" = (
 /obj/structure/industrial_lift/tram{
 	icon_state = "titanium"
@@ -1778,7 +1886,7 @@
 	icon_state = "titanium"
 	},
 /obj/structure/railing,
-/turf/open/floor/plating,
+/turf/open/floor/plating/elevatorshaft,
 /area/space)
 "VO" = (
 /obj/structure/lattice/catwalk,
@@ -1855,6 +1963,10 @@
 /obj/item/paicard,
 /turf/open/floor/iron,
 /area/space)
+"Yn" = (
+/obj/machinery/disposal/bin,
+/turf/open/floor/iron,
+/area/station/hallway/primary/starboard)
 "YB" = (
 /obj/machinery/computer/mecha,
 /turf/open/floor/iron/white,
@@ -37027,10 +37139,10 @@ sz
 sW
 tr
 zf
-zN
-ih
-TP
-qd
+Pm
+pJ
+BM
+vl
 qt
 tr
 tr
@@ -37285,8 +37397,8 @@ sW
 sW
 sW
 oU
-aC
-aC
+tY
+tY
 Vo
 sW
 sW
@@ -37541,10 +37653,10 @@ pI
 pI
 pI
 sW
-JZ
-iM
-Pt
-pE
+zr
+SQ
+ID
+Oh
 sW
 hW
 hW
@@ -37798,10 +37910,10 @@ QB
 hW
 hW
 sW
-Ex
+Lh
 NO
 NO
-Ex
+Lh
 sW
 KB
 vQ
@@ -41396,10 +41508,10 @@ pI
 pI
 pI
 sW
-tr
-tr
-tr
-tr
+gZ
+gZ
+gZ
+gZ
 sW
 Dk
 Dk
@@ -41653,10 +41765,10 @@ pI
 sW
 sW
 sW
-tr
-tr
-tr
-tr
+gZ
+gZ
+gZ
+gZ
 sW
 pI
 pI
@@ -41910,10 +42022,10 @@ sW
 sW
 TO
 jJ
-tr
-tr
-tr
-tr
+gZ
+gZ
+gZ
+gZ
 cj
 pI
 pI
@@ -42151,21 +42263,21 @@ vQ
 vQ
 vQ
 vQ
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 mT
 AI
 AI
@@ -42408,29 +42520,29 @@ vQ
 vQ
 vQ
 vQ
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+wU
+rf
+rf
+rf
+rf
 fo
-ht
-ht
+rf
+rf
 sW
 sz
 sz
@@ -42665,33 +42777,33 @@ vQ
 vQ
 vQ
 vQ
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
-ht
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+rf
+wU
+rf
+rf
+rf
+rf
+rf
+rf
+rf
 TO
-ht
-ht
-ht
+rf
+rf
+rf
 sW
 sW
 pI
@@ -42938,18 +43050,18 @@ cf
 sz
 sW
 bZ
-ht
+PN
 Ds
-ht
-ht
-ht
-ht
-ht
+rf
+rf
+rf
+rf
+rf
 TO
-ht
-ht
-ht
-ht
+rf
+rf
+rf
+rf
 sW
 Pn
 pI
@@ -43201,13 +43313,13 @@ sz
 Qu
 Qu
 sz
-ht
-ht
-ht
+rf
+rf
+rf
 zD
-ht
-ht
-ht
+rf
+rf
+rf
 sW
 sW
 Mx
@@ -43462,10 +43574,10 @@ sW
 sz
 sz
 sW
-ht
-ht
-ht
-ht
+rf
+rf
+rf
+rf
 Am
 Mx
 pI
@@ -43721,9 +43833,9 @@ To
 sW
 sW
 Ft
-ht
-ht
-tZ
+rf
+rf
+DZ
 sW
 Mx
 IQ
@@ -43978,9 +44090,9 @@ NN
 NN
 sW
 Le
-ht
-ht
-ht
+rf
+rf
+rf
 MX
 Mx
 pI
@@ -44236,9 +44348,9 @@ vC
 sW
 sW
 No
-ht
+rf
 Ea
-ht
+rf
 sz
 zj
 Eu
@@ -44493,9 +44605,9 @@ NN
 Zm
 sW
 kP
-ht
-ht
-ht
+rf
+rf
+rf
 sz
 zj
 Eu
@@ -44750,9 +44862,9 @@ ug
 OV
 bQ
 ib
-ht
-ht
-ht
+rf
+rf
+rf
 sz
 zj
 Eu
@@ -45007,9 +45119,9 @@ NN
 BW
 sz
 ib
-ht
-ht
-ht
+rf
+rf
+rf
 sz
 zj
 Eu
@@ -45266,7 +45378,7 @@ sz
 ib
 EY
 TZ
-ht
+rf
 sz
 pI
 Eu
@@ -45521,9 +45633,9 @@ NN
 ug
 Ng
 ib
-ht
-Cy
-ht
+rf
+LV
+rf
 sz
 pI
 Eu
@@ -45780,7 +45892,7 @@ sW
 gv
 CV
 iy
-ht
+rf
 sz
 pI
 Eu
@@ -46035,9 +46147,9 @@ TE
 TE
 WT
 ib
-ht
-ht
-ht
+rf
+rf
+rf
 sz
 pI
 Eu
@@ -46294,7 +46406,7 @@ WT
 ib
 Nw
 pn
-qT
+Yn
 sz
 pI
 Eu
