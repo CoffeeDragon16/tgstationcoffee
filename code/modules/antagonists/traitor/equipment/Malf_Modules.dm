@@ -445,10 +445,14 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 	cooldown_period = 100
 
 /datum/action/innate/ai/destroy_rcds/Activate()
-	for(var/I in GLOB.rcd_list)
-		if(!istype(I, /obj/item/construction/rcd/borg)) //Ensures that cyborg RCDs are spared.
-			var/obj/item/construction/rcd/RCD = I
-			RCD.detonate_pulse()
+	for(var/obj/item/global_rcd in GLOB.rcd_list) //Typecasted to /obj/item because mecha RCDs are in the rcd_list
+		if(!is_station_level(global_rcd.z))
+			return
+		if(istype(global_rcd, /obj/item/construction/rcd/borg)) //Ensures that cyborg RCDs are spared.
+			return
+		var/obj/item/construction/rcd/RCD = global_rcd
+		RCD.detonate_pulse()
+
 	to_chat(owner, span_danger("RCD detonation pulse emitted."))
 	owner.playsound_local(owner, 'sound/machines/twobeep.ogg', 50, 0)
 
