@@ -327,6 +327,17 @@
 	playsound(target, 'sound/items/deconstruct.ogg', 50, TRUE)
 	return ..()
 
+/obj/item/mecha_parts/mecha_equipment/rcd/proc/detonate_pulse()
+	audible_message("<span class='danger'><b>[src] begins to vibrate and \
+		buzz loudly!</b></span>","<span class='danger'><b>[src] begins \
+		vibrating violently!</b></span>")
+	// 5 seconds to get rid of it
+	addtimer(CALLBACK(src, .proc/detonate_pulse_explode), 5 SECONDS)
+
+/obj/item/mecha_parts/mecha_equipment/rcd/proc/detonate_pulse_explode()
+	explosion(src, light_impact_range = 3, flame_range = 1, flash_range = 1)
+	qdel(src)
+
 #undef MODE_DECONSTRUCT
 #undef MODE_WALL
 #undef MODE_AIRLOCK
